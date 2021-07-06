@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+body{
+    font-family: 'B612', sans-serif;
+    background: #0D8790;
+}
+input{
+    outline:none
+}
+#container{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 20px;
+    padding: 50px 0;
+    width:80%;
+    max-width: 600px;
+    position: absolute;
+    background: #f2786f;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+input[type='range']{
+    width: 200px;
+}
+#password{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border:none
+}
+.fa:active{
+    color:white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+@media (max-width:600px){
+    #container{
+        width:80%;
+    }
+    input[type='range']{
+        width: 150px;
+    }
+}
