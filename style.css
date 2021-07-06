@@ -10,7 +10,7 @@ input{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-size: 20px;
     padding: 50px 0;
-    width:90%;
+    width:95%;
     max-width: 550px;
     background: #f2786f;
     /* margin: 20% 5%; */
@@ -38,15 +38,29 @@ input[type='range']{
     #copy{
         size: 10px;
     }
-    #option{
+    #options{
         font-size:18px;
-
     }
     input[type='range']{
         width: 150px;
     }
 }
 @media (max-width:400px){
+    #passworddisplay{
+        width: 200px;
+    }
+    input[type="text"]{
+        size: 10px
+    }
+    #password{
+        margin-left: -10px;
+        height:25px;
+        width: 200px;
+        font-size: 12px;
+    }
+    #options{
+        font-size:15px;
+    }
     input[type='range']{
         width: 100px;
     }
