@@ -10,13 +10,14 @@ input{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-size: 20px;
     padding: 50px 0;
-    width:80%;
-    max-width: 600px;
-    position: absolute;
+    width:90%;
+    max-width: 550px;
     background: #f2786f;
+    /* margin: 20% 5%; */
+    position: absolute;
     top: 50%;
     left: 50%;
-    margin-right: -50%;
+    /* margin-right: -50%; */
     transform: translate(-50%, -50%);
 }
 input[type='range']{
@@ -34,7 +35,20 @@ input[type='range']{
     #container{
         width:80%;
     }
+    #copy{
+        size: 10px;
+    }
+    #option{
+        font-size:18px;
+
+    }
     input[type='range']{
         width: 150px;
     }
+}
+@media (max-width:400px){
+    input[type='range']{
+        width: 100px;
+    }
+
 }
